@@ -18,7 +18,7 @@ jobs:
     steps:
       - run: echo APP_NAME is ${{secrets.APP_NAME}}
       - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.6.8 # This is the action
+      - uses: akhileshns/heroku-deploy@v3.15.15 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{secrets.APP_NAME}} #Must be unique in Heroku
@@ -37,7 +37,7 @@ jobs:
     environment: ${{ github.event.inputs.env }}
     steps:
       - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.7.8 # This is the action
+      - uses: akhileshns/heroku-deploy@v3.15.15 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{secrets.APP_NAME}} #Must be unique in Heroku
